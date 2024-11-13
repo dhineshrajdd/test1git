@@ -1,0 +1,21 @@
+class box{
+	int length;
+	int breath;
+	int height;
+	
+	int blackbox() {
+		return length*breath*height;
+	}
+
+public class invokemethod{
+
+	public static void main(String[] args) {
+	box ddd=new box();
+	ddd.length=10;
+	ddd.height=20;
+	ddd.breath=30;
+	System.out.println("ddd is" + ddd.blackbox());
+	
+
+}}
+}
